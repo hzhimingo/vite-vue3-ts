@@ -106,10 +106,6 @@ const routes: Array<RouteRecordRaw> = [
     component: () => import('@/views/my/resume/preview.vue'),
   },
   {
-    path: '/my/collect',
-    component: () => import('@/views/my/collect/index.vue'),
-  },
-  {
     path: '/talent',
     component: () => import('@/views/talent/index.vue'),
   },
